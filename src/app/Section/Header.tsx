@@ -5,7 +5,7 @@ import { ReactSVG } from "react-svg";
 
 const HeaderSection = () => {
   return (
-    <div className="max-w-5xl mx-auto py-12 flex items-center">
+    <div className="max-w-5xl mx-auto py-20 mb-16 flex items-center">
       <div className="w-1/2">
         <h1 className="text-5xl max-w-md leading-snug font-semibold text-zinc-900">
           Bergabunglah dengan jutaan orang dan belajar hal baru
