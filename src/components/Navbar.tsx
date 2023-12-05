@@ -30,7 +30,7 @@ const Navbar = () => {
             <Link
               key={item.id}
               href={"/"}
-              className="flex items-center gap-x-3"
+              className="flex items-center gap-x-3 font-medium text-zinc-900"
             >
               {item.title}{" "}
               {item.dropdown ? (
