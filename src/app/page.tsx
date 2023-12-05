@@ -6,17 +6,18 @@ import LearningSection from "./Section/Learning";
 import PromoSection from "./Section/Promo";
 import CategorySection from "./Section/Category";
 import BusinessSection from "./Section/Business";
+import EventSection from "./Section/Event";
 
 export default function Home() {
   return (
     <main>
-      <Navbar />
       <HeaderSection />
       <FeaturesSection />
       <LearningSection />
       <PromoSection />
       <CategorySection />
       <BusinessSection />
+      <EventSection />
     </main>
   );
 }
