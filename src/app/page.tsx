@@ -3,6 +3,7 @@ import Image from "next/image";
 import HeaderSection from "./Section/Header";
 import FeaturesSection from "./Section/Features";
 import LearningSection from "./Section/Learning";
+import PromoSection from "./Section/Promo";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <HeaderSection />
       <FeaturesSection />
       <LearningSection />
+      <PromoSection />
     </main>
   );
 }
