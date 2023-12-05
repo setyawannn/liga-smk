@@ -15,7 +15,7 @@ const PictureNumber = [1, 2, 3, 4, 5, 6, 7, 8];
 
 const LearningSection = () => {
   return (
-    <div className="max-w-6xl mx-auto py-16">
+    <div className="max-w-6xl mx-auto py-36">
       <div className="flex justify-between items-center">
         <h2 className="text-3xl font-bold">Pembelajaran populer</h2>
         <div className="flex items-center gap-x-2">
@@ -43,7 +43,7 @@ const LearningSection = () => {
               height={208}
               className="w-full"
             />
-            <div className="mt-6 px-6 py-4">
+            <div className="mt-6 px-6 py-4 bg-white">
               <span className="text-[#4C26E7] font-semibold">Alen Mask</span>
               <h4 className="text-lg font-semibold">
                 Why Learn Intermediate SQL for Marketers?
