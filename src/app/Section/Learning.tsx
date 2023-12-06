@@ -17,12 +17,12 @@ const LearningSection = () => {
   return (
     <div className="max-w-6xl mx-auto py-36">
       <div className="flex justify-between items-center">
-        <h2 className="text-3xl font-bold">Pembelajaran populer</h2>
-        <div className="flex items-center gap-x-2">
+        <h2 className="text-3xl font-bold font-mdsans">Pembelajaran populer</h2>
+        <div className="flex items-center gap-x-2 font-roboto">
           {ClassList.map((item) => (
             <button
               key={item.id}
-              className={`px-6 py-2  text-sm rounded font-semibold duration-200 ${
+              className={`px-6 py-2  text-sm rounded font-medium duration-200 ${
                 item.active
                   ? "shadow-lg text-zinc-900 bg-white hover:shadow-2xl"
                   : " text-zinc-400 hover:text-[#3A10E5]"
@@ -35,7 +35,7 @@ const LearningSection = () => {
       </div>
       <div className="mt-16 grid grid-cols-4 gap-5">
         {PictureNumber.map((item) => (
-          <div key={item} className="border">
+          <div key={item} className="border font-roboto">
             <Image
               src={`/Assets/course-${item}.png`}
               alt=""
@@ -44,8 +44,10 @@ const LearningSection = () => {
               className="w-full"
             />
             <div className="mt-6 px-6 py-4 bg-white">
-              <span className="text-[#4C26E7] font-semibold">Alen Mask</span>
-              <h4 className="text-lg font-semibold">
+              <span className="text-[#4C26E7] font-semibold text-sm">
+                Alen Mask
+              </span>
+              <h4 className="text-lg font-semibold text-zinc-900">
                 Why Learn Intermediate SQL for Marketers?
               </h4>
               <div className="mt-6 flex items-center gap-4 font-medium text-zinc-500 text-sm">

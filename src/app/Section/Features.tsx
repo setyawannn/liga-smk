@@ -31,11 +31,11 @@ const FeaturesSection = () => {
         {FeaturesList.map((item) => (
           <div key={item.id} className="flex items-center gap-6">
             <ReactSVG src={`/Assets/${item.icon}`} />
-            <div>
+            <div className="font-roboto">
               <h4 className="text-xl font-bold text-zinc-900">
                 Kuasai Skill Baru
               </h4>
-              <p className="text-base font-medium text-zinc-800 mt-1">
+              <p className="text-base font-medium text-zinc-700">
                 Fokus apa yang dibutuhkan
               </p>
             </div>

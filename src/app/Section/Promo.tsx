@@ -17,12 +17,12 @@ const PromoSection = () => {
           />
         </div>
         <div className="">
-          <h2 className="text-4xl font-semibold text-zinc-900 max-w-lg mx-auto flex justify-center ">
+          <h2 className="text-4xl font-bold text-zinc-900 max-w-lg mx-auto flex justify-center font-mdsans">
             Dapatkan Membership Pro GRATIS untuk kelas kamu.
           </h2>
         </div>
         <div className=" ">
-          <button className="px-6 py-3 bg-[#3A10E5] text-white rounded font-medium">
+          <button className="px-6 py-3 bg-[#3A10E5] text-white rounded font-medium font-roboto">
             Lihat semua kelas
           </button>
         </div>

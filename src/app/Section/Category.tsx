@@ -19,8 +19,10 @@ const CategorySection = () => {
   return (
     <div className="bg-[#F7F7F7]">
       <MaxWidthWrapper className="py-36 flex flex-col justify-center">
-        <h2 className="text-3xl font-bold text-center">Kategori populer</h2>
-        <div className="grid grid-cols-4 mt-16 gap-4">
+        <h2 className="text-3xl font-bold text-center font-mdsans">
+          Kategori populer
+        </h2>
+        <div className="grid grid-cols-4 mt-16 gap-4 font-roboto">
           {CategoryList.map((item) => (
             <div
               key={item.id}
@@ -30,8 +32,12 @@ const CategorySection = () => {
                 <ReactSVG src={`/Assets/${item.icon}`} />
               </div>
               <div>
-                <h5 className="font-semibold text-xl">{item.title}</h5>
-                <span>2 Kelas</span>
+                <h5 className="font-semibold text-xl text-zinc-900">
+                  {item.title}
+                </h5>
+                <span className="text-sm text-zinc-600 font-medium">
+                  2 Kelas
+                </span>
               </div>
             </div>
           ))}
@@ -39,7 +45,7 @@ const CategorySection = () => {
         <div className="flex justify-center mt-12">
           <Link
             href={"/"}
-            className="flex items-center gap-2 text-[#4C26E7] font-medium duration-200 hover:gap-6"
+            className="flex items-center justify-center gap-2 text-[#4C26E7] font-medium duration-200 hover:gap-6"
           >
             Explore All Courses <ReactSVG src="/Assets/icon-double-next.svg" />
           </Link>

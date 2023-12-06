@@ -15,7 +15,7 @@ const NavbarList = [
 
 const Navbar = () => {
   return (
-    <div className="bg-white py-6">
+    <div className="bg-white py-6 font-roboto">
       <MaxWidthWrapper className="flex items-center justify-between">
         <div>
           <Image

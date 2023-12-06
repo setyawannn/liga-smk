@@ -1,10 +1,8 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/Components/Navbar";
 import Footer from "@/Components/Footer";
-
-const inter = Inter({ subsets: ["latin"] });
+import { DMSans, roboto } from "@/Config/Fonts";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -18,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="bg-[#F0F3FF]">
-      <body className={inter.className}>
+      <body className={`${DMSans.variable} ${roboto.variable}`}>
         <Navbar />
         {children}
         <Footer />

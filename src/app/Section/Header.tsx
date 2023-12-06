@@ -8,10 +8,10 @@ const HeaderSection = () => {
   return (
     <MaxWidthWrapper className="py-20 mb-16 flex items-center">
       <div className="w-1/2">
-        <h1 className="text-5xl max-w-md leading-snug font-semibold text-zinc-900">
+        <h1 className="text-5xl max-w-md leading-snug font-bold text-zinc-900 font-mdsans">
           Bergabunglah dengan jutaan orang dan belajar hal baru
         </h1>
-        <p className="mt-6 leading-loose text-base text-zinc-700 font-medium">
+        <p className="mt-6 leading-loose text-base text-zinc-500 font-medium max-w-sm font-roboto">
           Mengubah kehidupan, bisnis, dan bangsa melalui transformasi talenta di
           bidang teknologi digital
         </p>

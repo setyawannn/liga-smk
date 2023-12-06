@@ -17,30 +17,46 @@ const Footer = () => {
               width={142}
               height={36}
             />
-            <p className="text-zinc-400 mt-8 leading-relaxed">
+            <p className="text-zinc-400 mt-8 leading-relaxed font-roboto">
               Mengubah kehidupan, bisnis, dan bangsa melalui transformasi
               talenta di bidang teknologi digital
             </p>
             <div className="flex gap-8 mt-12 px-4">
-              <ReactSVG src="/Assets/icon-facebook-white.svg" />
-              <ReactSVG src="/Assets/icon-twitter-white.svg" />
-              <ReactSVG src="/Assets/icon-linkedin-white.svg" />
-              <ReactSVG src="/Assets/icon-youtube-white.svg" />
+              <ReactSVG
+                src="/Assets/icon-facebook-white.svg"
+                className="hover:opacity-90 cursor-pointer"
+              />
+              <ReactSVG
+                src="/Assets/icon-twitter-white.svg"
+                className="hover:opacity-90 cursor-pointer"
+              />
+              <ReactSVG
+                src="/Assets/icon-linkedin-white.svg"
+                className="hover:opacity-90 cursor-pointer"
+              />
+              <ReactSVG
+                src="/Assets/icon-youtube-white.svg"
+                className="hover:opacity-90 cursor-pointer"
+              />
             </div>
           </div>
           <div className="">
-            <h4 className="text-zinc-200 font-semibold text-xl">Resources</h4>
+            <h4 className="text-zinc-200 font-semibold text-xl font-mdsans">
+              Resources
+            </h4>
 
-            <div className="flex flex-col gap-6 text-zinc-400 mt-8">
+            <div className="flex flex-col gap-5 text-zinc-400 mt-8 font-roboto">
               <Link href={"/"}>Build Career</Link>
               <Link href={"/"}>Explore Subject</Link>
               <Link href={"/"}>Gain a Skill</Link>
             </div>
           </div>
-          <div className="">
-            <h4 className="text-zinc-200 font-semibold text-xl">Support</h4>
+          <div>
+            <h4 className="text-zinc-200 font-semibold text-xl font-mdsans">
+              Support
+            </h4>
 
-            <div className="flex flex-col gap-6 text-zinc-400 mt-8">
+            <div className="flex flex-col gap-5 text-zinc-400 mt-8 font-roboto">
               <Link href={"/"}>Web Development</Link>
               <Link href={"/"}>Data Science</Link>
               <Link href={"/"}>Machine Learning</Link>
@@ -49,7 +65,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="">
-            <h4 className="text-zinc-200 font-semibold text-xl">
+            <h4 className="text-zinc-200 font-semibold text-xl font-mdsans">
               Download Now
             </h4>
 
@@ -74,7 +90,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="border-[1px] w-full border-zinc-700 mt-20">{""}</div>
-        <div className="text-zinc-400 text-base flex justify-between py-8">
+        <div className="text-zinc-400 text-base flex justify-between py-8 font-roboto">
           <div className="flex gap-6">
             <Link href={"/"}>Site Map</Link>
             <Link href={"/"}>Privacy Policy</Link>
