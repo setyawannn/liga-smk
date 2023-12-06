@@ -4,6 +4,7 @@ import React from "react";
 import ArrowBottom from "../Assets/icon-arrow-bottom.svg";
 import { ReactSVG } from "react-svg";
 import Image from "next/image";
+import MaxWidthWrapper from "./MaxWidthWrapper";
 
 const NavbarList = [
   { id: 1, title: "Home", path: "/", dropdown: true },
@@ -15,7 +16,7 @@ const NavbarList = [
 const Navbar = () => {
   return (
     <div className="bg-white py-6">
-      <div className="flex items-center justify-between max-w-5xl mx-auto">
+      <MaxWidthWrapper className="flex items-center justify-between">
         <div>
           <Image
             src={"/Assets/logo-ligasmk-dark.png"}
@@ -41,7 +42,7 @@ const Navbar = () => {
             </Link>
           ))}
         </div>
-      </div>
+      </MaxWidthWrapper>
     </div>
   );
 };

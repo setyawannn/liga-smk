@@ -1,3 +1,4 @@
+import MaxWidthWrapper from "@/Components/MaxWidthWrapper";
 import Button from "@/Components/Reusable/Button";
 import Image from "next/image";
 import React from "react";
@@ -5,7 +6,7 @@ import { ReactSVG } from "react-svg";
 
 const HeaderSection = () => {
   return (
-    <div className="max-w-5xl mx-auto py-20 mb-16 flex items-center">
+    <MaxWidthWrapper className="py-20 mb-16 flex items-center">
       <div className="w-1/2">
         <h1 className="text-5xl max-w-md leading-snug font-semibold text-zinc-900">
           Bergabunglah dengan jutaan orang dan belajar hal baru
@@ -25,7 +26,7 @@ const HeaderSection = () => {
           className="h-auto"
         />
       </div>
-    </div>
+    </MaxWidthWrapper>
   );
 };
 

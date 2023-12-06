@@ -48,7 +48,7 @@ const LearningSection = () => {
               <h4 className="text-lg font-semibold">
                 Why Learn Intermediate SQL for Marketers?
               </h4>
-              <div className="mt-6 flex items-center gap-4 font-medium text-zinc-500">
+              <div className="mt-6 flex items-center gap-4 font-medium text-zinc-500 text-sm">
                 <span className="flex items-center gap-x-2">
                   <ReactSVG src="/Assets/icon-hamburger.svg" />
                   Beginner

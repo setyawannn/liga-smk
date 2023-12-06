@@ -1,4 +1,5 @@
 "use client";
+import MaxWidthWrapper from "@/Components/MaxWidthWrapper";
 import React from "react";
 import { ReactSVG } from "react-svg";
 
@@ -26,7 +27,7 @@ const FeaturesList = [
 const FeaturesSection = () => {
   return (
     <div className="bg-[#FACB3B]">
-      <div className="max-w-5xl py-16 mx-auto flex items-center justify-between">
+      <MaxWidthWrapper className="py-16 flex items-center justify-between">
         {FeaturesList.map((item) => (
           <div key={item.id} className="flex items-center gap-6">
             <ReactSVG src={`/Assets/${item.icon}`} />
@@ -40,7 +41,7 @@ const FeaturesSection = () => {
             </div>
           </div>
         ))}
-      </div>
+      </MaxWidthWrapper>
     </div>
   );
 };
